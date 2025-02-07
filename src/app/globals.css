@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Oswald, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #202020;
+    --card: #ffffff;
+    --card-foreground: #060606;
+    --popover: #ffffff;
+    --popover-foreground: #060606;
+    --primary: #dbb42c;
+    --primary-foreground: #f7f7f7;
+    --secondary: #f4f4f4;
+    --secondary-foreground: #171717;
+    --muted: #f4f4f4;
+    --muted-foreground: #737373;
+    --accent: #f4f4f4;
+    --accent-foreground: #171717;
+    --destructive: #f44336;
+    --destructive-foreground: #f7f7f7;
+    --border: #b5b5b5;
+    --input: #b5b5b5;
+    --ring: #060606;
+    --chart-1: #ff6f2b;
+    --chart-2: #2bc9c1;
+    --chart-3: #2a4e6d;
+    --chart-4: #f4c120;
+    --chart-5: #f4b031;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #060606;
+    --foreground: #f7f7f7;
+    --card: #060606;
+    --card-foreground: #f7f7f7;
+    --popover: #060606;
+    --popover-foreground: #f7f7f7;
+    --primary: #f7f7f7;
+    --primary-foreground: #171717;
+    --secondary: #262626;
+    --secondary-foreground: #f7f7f7;
+    --muted: #262626;
+    --muted-foreground: #a0a0a0;
+    --accent: #262626;
+    --accent-foreground: #f7f7f7;
+    --destructive: #d64a1f;
+    --destructive-foreground: #f7f7f7;
+    --border: #262626;
+    --input: #262626;
+    --ring: #d3d3d3;
+    --chart-1: #3b82f6;
+    --chart-2: #1dbd85;
+    --chart-3: #e47c0f;
+    --chart-4: #9c6ab0;
+    --chart-5: #d64b9a;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
