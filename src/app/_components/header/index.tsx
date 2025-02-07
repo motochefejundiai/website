@@ -35,6 +35,7 @@ function Header() {
         <div className="max-w-screen-2xl mx-auto px-6 py-2 flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image
+              priority
               width={80}
               height={80}
               src="/logos/logo-white.png"
@@ -76,7 +77,7 @@ function Header() {
       </header>
       {isOpen && (
         <div
-          className="md:hidden fixed top-0 left-0 w-full h-screen bg-[#202020]/95 backdrop-blur-sm flex items-center justify-center z-[60]"
+          className="md:hidden fixed top-0 left-0 w-full h-[100dvh] bg-[#202020]/95 backdrop-blur-sm flex items-center justify-center z-[60]"
           onClick={() => setIsOpen(false)}
         >
           <nav

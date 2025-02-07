@@ -4,7 +4,12 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { products } from '@/constants/scooters'
 import Image from 'next/image'
-import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle
+} from '@/components/ui/dialog'
 import Carousel from './carousel'
 import { Product } from '@/types/products'
 import Link from 'next/link'
@@ -62,7 +67,7 @@ function Models() {
       </div>
       {selectedModel && (
         <Dialog open={!!selectedModel} onOpenChange={() => setSelectedModel(null)}>
-          <DialogContent className="h-screen max-w-screen rounded-none flex flex-col lg:flex-row gap-0 p-0">
+          <DialogContent className="h-[100dvh] max-w-screen rounded-none flex flex-col lg:flex-row gap-0 p-0">
             <div className="lg:w-1/2 flex justify-center items-center">
               <Carousel
                 model={selectedModel.model}
@@ -80,6 +85,7 @@ function Models() {
                   </p>
                 ))}
               </div>
+              <DialogDescription></DialogDescription>
             </div>
           </DialogContent>
         </Dialog>

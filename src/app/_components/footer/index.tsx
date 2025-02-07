@@ -19,11 +19,11 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="flex flex-col items-center md:items-start gap-3">
             <Image
-              src="/logo-white.png"
+              priority
+              src="/logos/logo-white.png"
               alt="MotoChefe Jundiaí Logo"
               width={120}
               height={120}
-              loading="lazy"
             />
             <p className="text-center md:text-left text-lg opacity-80">
               A melhor loja de motos elétricas. Conquiste liberdade com economia!

@@ -63,6 +63,10 @@ body {
   }
 }
 
+html {
+  background-color: var(--primary);
+}
+
 @layer base {
   * {
     @apply border-border;

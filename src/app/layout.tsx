@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: appMetadata.description,
     images: [
       {
-        url: `${appMetadata.url}/capa.jpeg`,
+        url: `${appMetadata.url}/capa.png`,
         width: 960,
         height: 1280,
         alt: 'Capa do site MotoChefe Jundiaí'
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     site: '@your_twitter_handle',
     title: appMetadata.title,
     description: appMetadata.description,
-    images: [`${appMetadata.url}/capa.jpg`]
+    images: [`${appMetadata.url}/capa.png`]
   },
   robots: 'index, follow'
 }
