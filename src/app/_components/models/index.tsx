@@ -26,23 +26,33 @@ function Models() {
               className="relative shadow-custom rounded-xl bg-foreground overflow-hidden group"
             >
               {!product.needCnh && (
-                <div className="text-center absolute top-0 right-0 bg-primary text-white text-md font-bold px-4 py-2 rotate-[45deg] translate-x-[70px] translate-y-[15px] w-[230px] z-10 shadow-custom">
+                <div className="text-center absolute top-0 right-0 bg-primary text-white text-md font-bold px-4 py-2 rotate-[45deg] translate-x-[70px] translate-y-[15px] w-[230px] z-20 shadow-custom">
                   Não precisa
                   <br />
                   de CNH
                 </div>
               )}
+              <div
+                onClick={() => setSelectedModel(product)}
+                className="cursor-pointer absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/60 via-black/30 to-transparent text-white text-5xl font-semibold px-4 py-2 z-10 flex items-start"
+              >
+                {product.name}
+              </div>
               <Image
                 width={400}
                 height={300}
                 alt={`Modelo ${product.name}`}
-                className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+                className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
                 src={product.cover}
-                onClick={() => setSelectedModel(product)}
               />
               <Link href={whatsapp.main}>
                 <Button className="bg-[#25D366] absolute w-full bottom-0 left-0 rounded-none rounded-b-xl text-lg flex items-center justify-center gap-2">
-                  <Image height={24} width={24} alt="WhatsApp" src="/whatsapp.webp" />
+                  <Image
+                    height={24}
+                    width={24}
+                    alt="WhatsApp"
+                    src="/logos/whatsapp.png"
+                  />
                   Compre agora
                 </Button>
               </Link>

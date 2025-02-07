@@ -24,7 +24,7 @@ function Header() {
             <Image
               width={40}
               height={40}
-              src="/whatsapp.webp"
+              src="/logos/whatsapp.png"
               alt="Fale no WhatsApp"
               className="transition-transform transform hover:scale-110"
             />
@@ -37,7 +37,7 @@ function Header() {
             <Image
               width={80}
               height={80}
-              src="/logo-white.png"
+              src="/logos/logo-white.png"
               alt="Logo MotoChefe Jundiaí"
               className="transition-transform transform hover:scale-105"
             />
@@ -59,7 +59,7 @@ function Header() {
             className="hidden md:flex text-white text-lg items-center px-6 py-3 rounded-full bg-[#25D366] transition-all duration-300 hover:scale-105 shadow-lg hover:bg-[#25D366]/90"
             href={whatsapp.main}
           >
-            <Image height={30} width={30} alt="WhatsApp" src="/whatsapp.webp" />
+            <Image height={30} width={30} alt="WhatsApp" src="/logos/whatsapp.png" />
             <span className="ml-2">Compre Agora</span>
           </Link>
           <button
@@ -98,7 +98,7 @@ function Header() {
               className="text-white text-xl flex gap-2 items-center p-4 rounded-lg bg-[#25D366] hover:scale-105 transition-all duration-300 hover:bg-[#25D366]/90"
               href={whatsapp.main}
             >
-              <Image height={30} width={30} alt="WhatsApp" src="/whatsapp.webp" />
+              <Image height={30} width={30} alt="WhatsApp" src="/logos/whatsapp.png" />
               Compre Agora
             </Link>
           </nav>
