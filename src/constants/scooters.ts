@@ -138,7 +138,7 @@ export const products: Product[] = [
     name: 'Joy',
     cover: '/models/joy/0.jpg',
     needCnh: false,
-    numberOfImages: 13,
+    numberOfImages: 9,
     descriptions: [
       'Velocidade Máxima: Até 32 Km/H',
       'Autonomia: de 50Km (dependendo do trajeto, peso do condutor)',
@@ -163,7 +163,7 @@ export const products: Product[] = [
     name: 'Joy Super',
     cover: '/models/joy-super/0.jpg',
     needCnh: false,
-    numberOfImages: 7,
+    numberOfImages: 11,
     descriptions: [
       'Velocidade Máxima: Até 45 Km/H',
       'Autonomia: de 55Km (dependendo do trajeto, peso do condutor)',
@@ -318,8 +318,9 @@ export const products: Product[] = [
     name: 'S8',
     cover: '/models/s8/0.jpg',
     needCnh: true,
-    numberOfImages: 12,
+    numberOfImages: 11,
     descriptions: [
+      '2000 W ou 3000 W de potência',
       'Velocidade Máxima: Até 50 Km/H',
       'Autonomia: de 40Km a 50km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água IP65*',
@@ -344,8 +345,9 @@ export const products: Product[] = [
     name: 'X11',
     cover: '/models/x11/0.jpg',
     needCnh: true,
-    numberOfImages: 9,
+    numberOfImages: 10,
     descriptions: [
+      '2000 W ou 3000 W de potência',
       'Velocidade Máxima: Até 50 Km/H',
       'Autonomia: de 40Km a 50km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água IP65*',

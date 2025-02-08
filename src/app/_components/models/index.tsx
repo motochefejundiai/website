@@ -67,20 +67,20 @@ function Models() {
       </div>
       {selectedModel && (
         <Dialog open={!!selectedModel} onOpenChange={() => setSelectedModel(null)}>
-          <DialogContent className="h-[100dvh] max-w-screen rounded-none flex flex-col lg:flex-row gap-0 p-0">
-            <div className="lg:w-1/2 flex justify-center items-center">
+          <DialogContent className="h-[100dvh] max-w-screen rounded-none flex flex-col lg:flex-row gap-0 p-0 bg-foreground border-0">
+            <div className="lg:w-1/2 h-1/2 md:h-full flex justify-center items-center">
               <Carousel
                 model={selectedModel.model}
                 numberOfImages={selectedModel.numberOfImages}
               />
             </div>
-            <div className="lg:w-1/2 flex flex-col space-y-2 overflow-auto px-4 py-2">
-              <DialogTitle className="text-3xl font-bold">
-                {selectedModel.name}
+            <div className="lg:w-1/2 h-1/2 md:h-full flex flex-col space-y-4 overflow-auto px-4 py-2">
+              <DialogTitle className="text-4xl font-bold text-white border-b text-center md:text-left pb-4 pt-2">
+                Especificações {selectedModel.name}
               </DialogTitle>
-              <div className="space-y-1 px-2 lg:px-0">
+              <div className="space-y-2 px-2 lg:px-0">
                 {selectedModel.descriptions.map((description, index) => (
-                  <p key={index} className="text-lg text-gray-700">
+                  <p key={index} className="text-xl text-white">
                     - {description}
                   </p>
                 ))}

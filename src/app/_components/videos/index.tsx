@@ -1,13 +1,13 @@
 function Videos() {
   return (
-    <section className="relative flex flex-wrap h-[80vh] z-[2]">
+    <section className="relative flex flex-wrap h-[75vh] z-[2]">
       <div className="absolute inset-0 bg-black/30 pointer-events-none" />
       {[
-        {
-          src: '/videos/hero-1.mp4',
-          type: 'video/mp4',
-          alt: 'Descrição do vídeo da bicicleta no lago'
-        },
+        // {
+        //   src: '/videos/hero-1.mp4',
+        //   type: 'video/mp4',
+        //   alt: 'Descrição do vídeo da bicicleta no lago'
+        // },
         {
           src: '/videos/hero-2.mp4',
           type: 'video/mp4',
@@ -19,7 +19,7 @@ function Videos() {
         //   alt: 'Descrição do vídeo do lago'
         // }
       ].map((video, index) => (
-        <div key={index} className={`relative w-full md:w-1/2 h-1/2 md:h-full`}>
+        <div key={index} className="relative w-full h-full">
           <video
             preload="metadata"
             muted

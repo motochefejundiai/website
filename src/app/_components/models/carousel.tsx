@@ -22,7 +22,7 @@ function Carousel({ model, numberOfImages }: Props) {
       modules={[Navigation, Pagination]}
       navigation
       pagination={{ clickable: true }}
-      className="w-full h-full min-h-[550px] md:max-h-screen"
+      className="w-full h-full md:max-h-screen"
     >
       {images.map((imgSrc, index) => (
         <SwiperSlide key={index}>
