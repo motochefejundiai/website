@@ -60,6 +60,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://wbot.chat" />
         <link rel="dns-prefetch" href="https://wbot.chat" />
