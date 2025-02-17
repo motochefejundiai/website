@@ -14,6 +14,12 @@ const oswaldSans = Oswald({
 
 export const metadata: Metadata = {
   ...appMetadata,
+  keywords: [
+    'scoters elétricas',
+    'MotoChefe Jundiaí',
+    'motos elétricas',
+    'bicicletas elétricas'
+  ],
   alternates: {
     canonical: appMetadata.url
   },
@@ -27,6 +33,12 @@ export const metadata: Metadata = {
         url: `${appMetadata.url}/capa.png`,
         width: 960,
         height: 1280,
+        alt: 'Capa do site MotoChefe Jundiaí'
+      },
+      {
+        url: `${appMetadata.url}/capa.png`,
+        width: 1200,
+        height: 630,
         alt: 'Capa do site MotoChefe Jundiaí'
       }
     ]
@@ -48,8 +60,10 @@ export default function RootLayout({
     <html lang="pt-br">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="preconnect" href="https://wbot.chat" />
+        <link rel="dns-prefetch" href="https://wbot.chat" />
+        <meta property="og:logo" content="/favicon.ico" />
         <Script
           src="https://wbot.chat/index.js"
           strategy="lazyOnload"
