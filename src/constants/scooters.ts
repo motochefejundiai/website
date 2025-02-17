@@ -321,7 +321,7 @@ export const products: Product[] = [
     numberOfImages: 11,
     descriptions: [
       '2000 W ou 3000 W de potência',
-      'Velocidade Máxima: Até 50 Km/H',
+      'Velocidade Máxima: de 50 Km/H Até 70 Km/H (dependendo da potência)',
       'Autonomia: de 40Km a 50km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água IP65*',
       'Botão Start e Stop',
@@ -348,7 +348,7 @@ export const products: Product[] = [
     numberOfImages: 10,
     descriptions: [
       '2000 W ou 3000 W de potência',
-      'Velocidade Máxima: Até 50 Km/H',
+      'Velocidade Máxima: de 50 Km/H Até 70 Km/H (dependendo da potência)',
       'Autonomia: de 40Km a 50km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água IP65*',
       'Botão Start e Stop',
