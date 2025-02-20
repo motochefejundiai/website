@@ -210,6 +210,34 @@ export const products: Product[] = [
     ]
   },
   {
+    model: 'tri-3',
+    name: 'Tri 3 lugares',
+    cover: '/models/tri-3/0.jpg',
+    needCnh: false,
+    numberOfImages: 4,
+    descriptions: [
+      'Velocidade Máxima: Até 32 Km/H',
+      'Cadeirinha de criança',
+      'Possui baú',
+      'Autonomia: de 55Km (dependendo do trajeto, peso do condutor)',
+      'Veículo com resistência a água',
+      'Bateria de lítio removível para carregar onde quiser',
+      'Carregamento completo em até 5 horas',
+      'Alarme com bloqueio e trava',
+      'Carregador bivolt',
+      'Painel LCD (informações de velocidade, carga e quilometragem)',
+      '3 modos de velocidade',
+      'Amortecedor: Dianteiro e Traseiro Duplo Hidráulicos',
+      'Leva até 3 pessoas (Cadeirinha para criança)',
+      'Farol Led, alarme, setas, buzina',
+      'Comporta 180 kg',
+      'Menos de R$ 1,00 para carregar uma carga completa',
+      'Cesta frontal e traseira',
+      'Marcha Ré',
+      'Carregador USB'
+    ]
+  },
+  {
     model: 'vtb2-liberty',
     name: 'VTB2 Liberty',
     cover: '/models/vtb2-liberty/0.jpg',
@@ -258,6 +286,50 @@ export const products: Product[] = [
     ]
   },
   {
+    model: 'drift',
+    name: 'Drift',
+    cover: '/models/drift/0.jpg',
+    needCnh: false,
+    numberOfImages: 3,
+    descriptions: [
+      '250 W de potência',
+      'Velocidade Máxima: Até 20 Km/H',
+      'Possuir Bluetooth',
+      'Carregamento completo em até 5 horas',
+      'Carregador bivolt',
+      '3 modos de velocidade',
+      'Comporta 70 kg',
+      'Menos de R$ 1,00 para carregar uma carga completa'
+    ]
+  },
+  {
+    model: 'soma',
+    name: 'Soma',
+    cover: '/models/soma/0.jpg',
+    needCnh: false,
+    numberOfImages: 6,
+    descriptions: [
+      'Velocidade Máxima: Até 32 Km/H',
+      'Autonomia: de 60Km (dependendo do trajeto, peso do condutor)',
+      'Veículo com resistência a água',
+      'Bateria de lítio removível para carregar onde quiser',
+      'Carregamento completo em até 5 horas',
+      'Tecnologia NFC - Chave key less (liga a Scooter sem precisar da chave)',
+      'Alarme com bloqueio e trava',
+      'Carregador bivolt',
+      'Painel LCD (informações de velocidade, carga e quilometragem)',
+      '3 modos de velocidade',
+      'Amortecedor: Dianteiro e Traseiro Duplo Hidráulicos',
+      'Banco Duplo',
+      'Farol Led, alarme, setas, buzina',
+      'Comporta 150 kg',
+      'Menos de R$ 1,00 para carregar uma carga completa',
+      ' Carregador USB',
+      'Freio a disco hidráulico frontal',
+      ' Porta objetos embaixo do banco + Bagageiro'
+    ]
+  },
+  {
     model: 'mia',
     name: 'Mia',
     cover: '/models/mia/0.jpg',
@@ -282,6 +354,54 @@ export const products: Product[] = [
       'Porta objetos embaixo do banco e na lateral',
       'Pneu New City (Sem câmara)',
       'Compartimento para bateria Extra, dobrando autonomia'
+    ]
+  },
+  {
+    model: 'mia-tri',
+    name: 'Mia Tri',
+    cover: '/models/mia-tri/0.jpg',
+    needCnh: false,
+    numberOfImages: 4,
+    descriptions: [
+      'Velocidade Máxima: Até 32 Km/H',
+      'Autonomia: de 40Km (dependendo do trajeto, peso do condutor)',
+      'Veículo com resistência a água',
+      'Banco duplo',
+      'Bateria de lítio removível para carregar onde quiser',
+      'Carregamento completo em até 5 horas',
+      'Alarme com bloqueio e trava',
+      'Carregador bivolt',
+      'Painel digital (informações de velocidade, carga e quilometragem)',
+      '3 modos de velocidade',
+      'Banco Duplo com encosto',
+      'Farol Led, alarme, setas, buzina',
+      'Comporta 150 kg',
+      'Menos de R$ 1,00 para carregar uma carga completa',
+      'Porta objetos embaixo do banco e na lateral',
+      'Pneu New City (Sem câmara)',
+      'Compartimento para bateria Extra, dobrando autonomia'
+    ]
+  },
+  {
+    model: 'ret',
+    name: 'Ret',
+    cover: '/models/ret/0.jpg',
+    needCnh: false,
+    numberOfImages: 3,
+    descriptions: [
+      'Velocidade Máxima: Até 32 Km/H',
+      'Autonomia: de 46Km (dependendo do trajeto, peso do condutor)',
+      'Veículo com resistência a água',
+      'Bateria de lítio removível para carregar onde quiser',
+      'Carregamento completo em até 5 horas',
+      'Alarme com bloqueio e trava',
+      'Carregador bivolt',
+      'Painel digital (informações de velocidade, carga e quilometragem)',
+      '3 modos de velocidade',
+      'Farol Led, alarme, setas, buzina',
+      'Comporta 150 kg',
+      'Menos de R$ 1,00 para carregar uma carga completa',
+      'Porta objetos embaixo do banco e na lateral'
     ]
   },
   {

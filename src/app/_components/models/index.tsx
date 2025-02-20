@@ -47,7 +47,7 @@ function Models() {
                 width={400}
                 height={300}
                 alt={`Modelo ${product.name}`}
-                className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 src={product.cover}
               />
               <Link href={whatsapp.main}>
