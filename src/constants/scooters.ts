@@ -366,7 +366,6 @@ export const products: Product[] = [
       'Velocidade Máxima: Até 32 Km/H',
       'Autonomia: de 40Km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água',
-      'Banco duplo',
       'Bateria de lítio removível para carregar onde quiser',
       'Carregamento completo em até 5 horas',
       'Alarme com bloqueio e trava',
@@ -378,8 +377,7 @@ export const products: Product[] = [
       'Comporta 150 kg',
       'Menos de R$ 1,00 para carregar uma carga completa',
       'Porta objetos embaixo do banco e na lateral',
-      'Pneu New City (Sem câmara)',
-      'Compartimento para bateria Extra, dobrando autonomia'
+      'Pneu New City (Sem câmara)'
     ]
   },
   {
@@ -390,8 +388,9 @@ export const products: Product[] = [
     numberOfImages: 3,
     descriptions: [
       'Velocidade Máxima: Até 32 Km/H',
-      'Autonomia: de 46Km (dependendo do trajeto, peso do condutor)',
+      'Autonomia: de 60Km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água',
+      'Banco do garupa com encosto',
       'Bateria de lítio removível para carregar onde quiser',
       'Carregamento completo em até 5 horas',
       'Alarme com bloqueio e trava',
