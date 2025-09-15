@@ -14,6 +14,7 @@ import Carousel from './carousel'
 import { Product } from '@/types/products'
 import Link from 'next/link'
 import { whatsapp } from '@/constants/links'
+import WhatsApp from '@/components/ui/whatsapp'
 
 function Models() {
   const [selectedModel, setSelectedModel] = useState<Product | null>(null)
@@ -72,6 +73,7 @@ function Models() {
       {selectedModel && (
         <Dialog open={!!selectedModel} onOpenChange={() => setSelectedModel(null)}>
           <DialogContent className="h-[100dvh] max-w-screen rounded-none flex flex-col lg:flex-row gap-0 p-0 bg-foreground border-0">
+            <WhatsApp />
             <div className="lg:w-1/2 h-1/2 md:h-full flex justify-center items-center">
               <Carousel
                 model={selectedModel.model}

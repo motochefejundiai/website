@@ -5,6 +5,7 @@ import { whatsapp } from '@/constants/links'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import WhatsApp from '@/components/ui/whatsapp'
 
 const menus = [
   { id: 'home-menu', label: 'Página Inicial', href: '/' },
@@ -18,19 +19,7 @@ function Header() {
 
   return (
     <>
-      <div className="fixed bottom-6 right-6 z-[60] animate-in animate-out">
-        <Link href={whatsapp.main} target="_blank">
-          <div className="bg-[#25D366] p-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <Image
-              width={40}
-              height={40}
-              src="/logos/whatsapp.png"
-              alt="Fale no WhatsApp"
-              className="transition-transform transform hover:scale-110"
-            />
-          </div>
-        </Link>
-      </div>
+      <WhatsApp />
       <header className="w-full bg-foreground">
         <div className="max-w-screen-2xl mx-auto px-6 py-2 flex justify-between items-center">
           <Link href="/" className="flex items-center">
