@@ -50,8 +50,12 @@ function Models() {
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 src={product.cover}
               />
-              <Link href={whatsapp.main}>
-                <Button className="bg-[#25D366] absolute w-full bottom-0 left-0 rounded-none rounded-b-xl text-lg flex items-center justify-center gap-2">
+              <Link
+                target="_blank"
+                href={whatsapp.main}
+                className="absolute w-full bottom-0 left-0 z-50"
+              >
+                <Button className="bg-[#25D366] w-full rounded-none rounded-b-xl text-lg flex items-center justify-center gap-2">
                   <Image
                     height={24}
                     width={24}
