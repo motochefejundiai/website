@@ -31,7 +31,6 @@ const QuoteImage = memo(function Quote({ index }: { index: number }) {
         alt={`Quote ${index + 1}`}
         width={700}
         height={200}
-        priority
         className="rounded-lg shadow-lg opacity-0 animate-fadeIn transition-opacity duration-1000"
       />
     </div>
