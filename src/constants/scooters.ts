@@ -165,7 +165,7 @@ export const products: Product[] = [
     needCnh: false,
     numberOfImages: 11,
     descriptions: [
-      'Velocidade Máxima: Até 45 Km/H',
+      'Velocidade Máxima: Até 32 Km/H',
       'Autonomia: de 55Km (dependendo do trajeto, peso do condutor)',
       'Veículo com resistência a água',
       'Bateria de lítio removível para carregar onde quiser',
