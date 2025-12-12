@@ -62,16 +62,16 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="preconnect" href="https://wbot.chat" />
-        <link rel="dns-prefetch" href="https://wbot.chat" />
+        {/* <link rel="preconnect" href="https://wbot.chat" />
+        <link rel="dns-prefetch" href="https://wbot.chat" /> */}
         <meta property="og:logo" content="/favicon.ico" />
-        <Script
+        {/* <Script
           src="https://wbot.chat/index.js"
           strategy="lazyOnload"
           data-token="2ed2cee1abab5d70ca87b06be90bf53c"
-        />
+        /> */}
         {/* Google Tag Manager */}
-        <Script
+        {/* <Script
           id="google-tag-manager"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -81,7 +81,7 @@ export default function RootLayout({
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-NK59FP42');`
           }}
-        />
+        /> */}
         {/* End Google Tag Manager */}
       </head>
       <body className={`${oswaldSans.variable} antialiased relative`}>
