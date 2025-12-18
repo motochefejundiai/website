@@ -71,7 +71,7 @@ export default function RootLayout({
           data-token="2ed2cee1abab5d70ca87b06be90bf53c"
         /> */}
         {/* Google Tag Manager */}
-        {/* <Script
+        <Script
           id="google-tag-manager"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -81,7 +81,7 @@ export default function RootLayout({
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-NK59FP42');`
           }}
-        /> */}
+        />
         {/* End Google Tag Manager */}
       </head>
       <body className={`${oswaldSans.variable} antialiased relative`}>
