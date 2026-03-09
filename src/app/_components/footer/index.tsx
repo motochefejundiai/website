@@ -7,7 +7,11 @@ const FOOTER_LINKS = [
   { label: 'Sobre Nós', href: '/#sobre' },
   { label: 'Motos', href: '/#modelos' },
   { label: 'Contato', href: '/#contato' },
-  { label: 'Endereço', href: 'https://maps.app.goo.gl/zNwCAkX71k69TSbw5' }
+  {
+    label: 'Endereço',
+    href: 'https://maps.app.goo.gl/zNwCAkX71k69TSbw5',
+    target: '_blank'
+  }
 ]
 
 function Footer() {
@@ -37,10 +41,11 @@ function Footer() {
             aria-label="Footer Navigation Links"
             className="flex flex-col md:flex-row items-center justify-center gap-6"
           >
-            {FOOTER_LINKS.map(({ label, href }) => (
+            {FOOTER_LINKS.map(({ label, href, target }) => (
               <Link
                 key={href}
                 href={href}
+                target={target}
                 className="text-lg hover:text-primary transition-all focus:outline-none focus:ring-2 focus:ring-primary rounded"
               >
                 {label}
