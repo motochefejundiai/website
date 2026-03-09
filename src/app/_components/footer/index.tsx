@@ -6,7 +6,8 @@ const FOOTER_LINKS = [
   { label: 'Página Inicial', href: '/' },
   { label: 'Sobre Nós', href: '/#sobre' },
   { label: 'Motos', href: '/#modelos' },
-  { label: 'Contato', href: '/#contato' }
+  { label: 'Contato', href: '/#contato' },
+  { label: 'Endereço', href: 'https://maps.app.goo.gl/zNwCAkX71k69TSbw5' }
 ]
 
 function Footer() {
@@ -25,6 +26,9 @@ function Footer() {
               width={120}
               height={120}
             />
+            <p className="text-center md:text-left text-lg opacity-80">
+              Endereço: R. Moreira César, 139 - Vila Arens II, Jundiaí - SP, 13202-600
+            </p>
             <p className="text-center md:text-left text-lg opacity-80">
               A melhor loja de motos elétricas. Conquiste liberdade com economia!
             </p>

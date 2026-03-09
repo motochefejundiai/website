@@ -11,7 +11,13 @@ const menus = [
   { id: 'home-menu', label: 'Página Inicial', href: '/' },
   { id: 'about-menu', label: 'Sobre Nós', href: '/#sobre' },
   { id: 'motorcycles-menu', label: 'Motos', href: '/#modelos' },
-  { id: 'contact-menu', label: 'Contato', href: '/#contato' }
+  { id: 'contact-menu', label: 'Contato', href: '/#contato' },
+  {
+    id: 'address-menu',
+    label: 'Endereço',
+    href: 'https://maps.app.goo.gl/zNwCAkX71k69TSbw5',
+    target: '_blank'
+  }
 ]
 
 function Header() {
@@ -33,10 +39,11 @@ function Header() {
             />
           </Link>
           <nav className="hidden md:flex space-x-8">
-            {menus.map(({ id, label, href }) => (
+            {menus.map(({ id, label, href, target }) => (
               <Link
                 key={id}
                 href={href}
+                target={target}
                 className="text-[#B5B5B5] uppercase font-bold text-sm tracking-wider relative group transition-all duration-300"
               >
                 {label}
