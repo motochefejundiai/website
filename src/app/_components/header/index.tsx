@@ -80,10 +80,11 @@ function Header() {
             className="flex flex-col items-center justify-center space-y-8"
             onClick={e => e.stopPropagation()}
           >
-            {menus.map(({ id, label, href }) => (
+            {menus.map(({ id, label, href, target }) => (
               <Link
                 key={id}
                 href={href}
+                target={target}
                 className="text-[#B5B5B5] text-2xl uppercase font-bold tracking-wider hover:text-primary transition-all duration-300"
                 onClick={() => setIsOpen(false)}
               >
